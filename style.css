@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* { padding: 0; margin: 0; }
+body { background: #ff9400; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 1px; font-family: 'Roboto', sans-serif;}
+.post-header {
+background: -webkit-linear-gradient(180deg, rgb(1, 104, 170) 52%, rgb(15, 73, 146) 100%);
+background: -moz-linear-gradient(180deg, rgb(1, 104, 170) 52%, rgb(15, 73, 146) 100%);
+background: linear-gradient(180deg, rgb(1, 104, 170) 52%, rgb(15, 73, 146) 100%);
+color: aliceblue;
+margin: 0;}
+
+header {
+  display: table;
+  padding: 0em 5%;
+background: -webkit-linear-gradient(180deg, rgb(246, 209, 46) 24%, rgb(254, 164, 0) 96%, rgb(1, 104, 170) 100%);
+background: -moz-linear-gradient(180deg, rgb(246, 209, 46) 24%, rgb(254, 164, 0) 96%, rgb(1, 104, 170) 100%);
+background: linear-gradient(180deg, rgb(246, 209, 46) 24%, rgb(254, 164, 0) 96%, rgb(1, 104, 170) 100%);
+  color:black;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header nav,
+header div {
+  display: table-cell;
+  vertical-align: middle;
+  height: 2em;
+}
+
+header nav {
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 720px){
+    header {
+        height: auto;
+    }
+    
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+        text-align: center;
+            margin-bottom: 1em;
+    }
+}
+
+header > div h1 {
+    font-size: 3em;
+}
+
+header nav a {
+    padding: 0 0.6em;
+    white-space: nowrap;
+    
+}
+.logo {
+width: 20em;
+margin-bottom: -2em;
+margin-top: -1.5em;
+margin-left: 5em;}
